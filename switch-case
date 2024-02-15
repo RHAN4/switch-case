@@ -1,0 +1,38 @@
+programa {
+	funcao inicio() {
+	  inteiro n1, n2, resultado
+  	cadeia operacao
+
+	escreva("Digite o primeiro número: ")
+	leia(n1)
+
+	escreva("Digite o segundo número: ")
+	leia(n2)
+
+	escreva("Digite a operação desejada: ")
+	leia(operacao)
+
+	escolha (operacao) {
+		caso "+" :
+		resultado = n1 + n2
+		pare
+
+		caso "-" :
+		resultado = n1 - n2
+		pare
+
+		caso "*" :
+		resultado = n1 * n2
+		pare
+
+		caso "/" :
+		resultado = n1 / n2
+		pare
+
+		caso contrario :
+		escreva("Operação digita inválida")
+    	
+		}
+    escreva("\nResultado: ", resultado) 
+	}
+}
