@@ -1,0 +1,43 @@
+programa {
+  funcao inicio() {
+    cadeia dia
+    inteiro diaSemana
+    escreva("Dia da semana: ")
+    leia(diaSemana)
+
+    escolha(diaSemana) {
+    caso 1 :
+    dia = "Final de semana"
+    pare
+
+    caso 2 :
+    dia = "Dia útil"
+    pare
+
+    caso 3 :
+    dia = "Dia útil"
+    pare
+
+    caso 4 :
+    dia = "Dia útil"
+    pare
+
+    caso 5 :
+    dia = "Dia útil"
+    pare
+
+    caso 6 :
+    dia = "Dia útil"
+    pare
+
+    caso 7 :
+    dia = "Final de semana"
+    pare
+
+    caso contrario :
+    escreva("Dia inválido")
+
+    }
+    escreva("\nEsse dia é...: ", dia)
+  }
+}
