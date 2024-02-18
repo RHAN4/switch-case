@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    real peso, altura, pesoIdeal
+    cadeia genero, M, F
+
+    escreva("Digite o seu peso: ")
+    leia(peso)
+    escreva("Digite a sua altura: ")
+    leia(altura)
+    escreva("Digite o seu gênero: ")
+    leia(genero)
+
+    escolha (genero) {
+    caso "M" :
+    pesoIdeal = (72.7 * altura) - 58
+    pare
+
+    caso "F" : 
+    pesoIdeal = (62.1 * altura) - 44.7
+    pare
+
+    caso contrario :
+    escreva("Algo está errado")
+    }
+
+    escreva("\nSeu peso ideal é: ", pesoIdeal)
+  }
+}
