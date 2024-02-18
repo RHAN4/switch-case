@@ -1,0 +1,45 @@
+programa {
+  funcao inicio() {
+    cadeia opcao
+  
+
+    escreva ("=== MENU ===")
+    escreva("\n1 \tPicanha \tR$ 25,00")
+    escreva("\n2 \tLasanha \tR$ 20,00")
+    escreva("\n3 Strogonoff \tR$ 18,00")
+    escreva("\n4 Bife Acebolado \tR$ 15,00")
+    escreva("\n5 Pão com ovo \tR$5,00")
+    escreva("\n === FIM DO MENU ===")
+
+    escreva("\nDigite a opção desejada: ")
+    leia(opcao)
+
+  escolha (opcao) {
+  caso "1" : 
+  "picanha"
+  pare
+
+  caso "2" :
+  "lasanha"
+  pare
+
+  caso "3" :
+  "strogonoff"
+  pare
+
+  caso "4" :
+  "bife"
+  pare
+
+  caso "5" :
+  "pao"
+  pare
+
+  caso contrario :
+  escreva("Opção inválida")
+  }
+  escreva("\nPrato escolhido: ", opcao)
+  escreva("\nBom apetite!")
+
+  }
+}
